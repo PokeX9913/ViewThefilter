@@ -42,8 +42,9 @@ npm run build
 To package the application for distribution, run:
 ```sh
 npm run package
+
+
+
 License
 This project is licensed under the MIT License.
-
-
 LeGoat
