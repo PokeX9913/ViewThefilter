@@ -1,0 +1,35 @@
+{
+        "name": "imageresizeer",
+        "productName": "Image Resizer",
+        "version": "1.0.1",
+        "description": "A tool for resizing images using Electron.",
+        "main": "index.js",
+        "scripts": {
+            "start": "electron .",
+            "package": "electron-packager . Imageresizeer --platform=win32 --arch=x64 --out=dist --overwrite --icon=assets/simple.ico",
+            "build": "electron-builder"
+        },
+        "build": {
+            "appId": "com.yourcompany.imageresizeer",
+            "win": {
+                "icon": "assets/simple.ico",
+                "target": "nsis"
+            }
+        },
+        "devDependencies": {
+            "electron": "^24.0.0",
+            "electron-packager": "^17.1.2",
+            "electron-builder": "^23.0.0"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/yourusername/imageresizeer.git"
+        },
+        "keywords": [
+            "electron",
+            "image",
+            "resize"
+        ],
+        "author": "LeGoat",
+        "license": "MIT"
+    }

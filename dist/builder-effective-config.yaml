@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.yourcompany.imageresizeer
+win:
+  icon: assets/simple.ico
+  target: nsis
+files: []
+electronVersion: 24.8.8

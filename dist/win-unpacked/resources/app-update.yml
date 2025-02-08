@@ -1,0 +1,4 @@
+owner: yourusername
+repo: imageresizeer
+provider: github
+updaterCacheDirName: imageresizeer-updater
