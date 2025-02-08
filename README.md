@@ -23,10 +23,6 @@ Image Resizer is a tool for resizing images using Electron.
     ```sh
     npm install
     ```
-    
-##Building
-To build the application using electron-builder,  run:
-npm run build
 
 ## Usage
 
